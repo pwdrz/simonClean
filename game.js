@@ -51,7 +51,7 @@ $(".btn").click(function () {
 
 function playSound(name) {
   var sound = new Audio(
-    "C:/Users/fgresbrand.D3S/Documents/Udemy/The Complete 2022 Web Development Bootcamp/Section 15 - Boss Level Challenge 2 - The Simon Game/Simon Game Challenge Starting Files/sounds/" +
+    "sounds/" +
       name +
       ".mp3"
   );
@@ -92,7 +92,7 @@ function checkAnswer(currentLevel) {
     // Game over
 
     var wrong = new Audio(
-      "C:/Users/fgresbrand.D3S/Documents/Udemy/The Complete 2022 Web Development Bootcamp/Section 15 - Boss Level Challenge 2 - The Simon Game/Simon Game Challenge Starting Files/sounds/wrong.mp3"
+      "sounds/wrong.mp3"
     );
     wrong.play();
     console.log("gameOver");
